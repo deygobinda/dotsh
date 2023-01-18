@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(https://media.istockphoto.com/id/1400918939/vector/summer-sunny-clear-sky-orange-and-blue-abstract-defocused-color-gradient-background-vector.jpg?s=612x612&w=0&k=20&c=H7zCHx8fPia02XttG3pkAVhLRm1VQSWEUi7Tl2agHms=);
+    background-size: 500%;
+    height: 300px;
+    background-position: -40px 0px;
+}
+div.main{
+    width: 300px;
+    margin: 100px auto 1000px auto;
+
+}
+h2{
+    
+    text-align: center;
+    padding: 3px;
+    font-family: sans-serif;
+}
+
+div.register{
+    padding: 70px;
+    background-color: rgba(0,0,0,0.5);
+    width: 70%;
+    font-size: 20px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 10px 10px 30px
+    rgba(0,0,0,0.3);
+    color:white;
+
+}
+form#register{
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style:initial;
+}
+input#name{
+    width: 300;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: blanchedalmond;
+    box-shadow:  5px 5px 5px
+    
+}
+input#submit{
+    width: 100px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    border-color:blanchedalmond;
+    color:white;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 15px;
+    margin-bottom: 10px;
+}
+label,span,h2{
+    text-shadow: 2px 2px 5px
+    rgba(0,0,0,0.3)
+
+}
+
