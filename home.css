@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://www.freewebheaders.com/wp-content/gallery/healthcare_1/medical-doctor-stethoscope-and-office-sign-web-header.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    height: 5vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:end;
+   box-shadow:5px 5px 3px;
+}
+.all{
+    cursor: pointer;
+    font-size:large;
+    margin-left: 29px;
+    border-radius: 15px;
+    padding: 4px;
+    width: 60px;
+    justify-content: space-between;
+    
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.head {
+    color: black;
+    text-align: end;
+    margin-right: 550px;
+    margin-left: 600px;
+    background-color:transparent;
+    transition:5s;
+}
+.head:hover{
+    width: 600px;
+}
+
+.place{
+    margin-top: 100px;
+    margin-left: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.footer{
+    margin-bottom: 0;
+    margin-top: 70px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:transparent;
+}
+.container{
+    padding-left: 50px;
+    max-width: 2000px;
+    background-color: rgba(0,0,0,0.3);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 10%;
+    padding: 0 0px;
+    height:230px;
+}
+.footer-col h4{
+    font-size: 18px;
+    column-gap: #ffffff;
+    text-transform: capitalize;
+}
+.footer-col ul li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 30px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    font-weight: 300;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 80%;
+}
+.all :hover{
+    font-size:medium ;
+    color:rgb(105, 223, 236) ;
+}
+.social-link :hover{
+    font-size: larger;
+    color:aqua
+
+}
+.footer-col ul :hover{
+    color: aqua;
+    font-size: medium;
+}
+.b{
+    text-decoration: none;
+    color: #000000;
+}
+.li :hover{
+    font-size:large;
+    color: #9dd8e9;
+}
