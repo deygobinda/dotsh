@@ -4,11 +4,7 @@
 }
 body{
     flex-wrap: wrap;
-  background: url(https://t3.ftcdn.net/jpg/01/33/62/14/360_F_133621467_SKHHJVJ36Qs4YxKYEuifN9pYhBNlrOg9.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-color:red;
 }
 
 .nav{
