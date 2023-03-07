@@ -4,10 +4,11 @@
 }
 body{
     flex-wrap: wrap;
-    background-image: url(https://www.freewebheaders.com/wp-content/gallery/healthcare_1/medical-doctor-stethoscope-and-office-sign-web-header.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    flex-wrap: wrap;
+   background: url(https://www.freewebheaders.com/wp-content/gallery/healthcare_1/medical-doctor-stethoscope-and-office-sign-web-header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .nav{
